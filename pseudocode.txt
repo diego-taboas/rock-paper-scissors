@@ -1,1 +1,3 @@
 Write a function that randomly returns "rock", "paper" or "scissors".
+Write a function that takes the user choice and returns it.
+Write variables to keep players score.
