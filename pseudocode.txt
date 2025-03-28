@@ -1,3 +1,4 @@
 Write a function that randomly returns "rock", "paper" or "scissors".
 Write a function that takes the user choice and returns it.
 Write variables to keep players score.
+Write a function that takes the human and computer player choices as arguments, plays a single round, increments the round winner’s score and logs a winner announcement.
