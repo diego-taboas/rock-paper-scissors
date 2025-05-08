@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif, system-ui;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+#main-cont {
+    text-align: center;
+}
+
+#main-cont h1 {    
+    margin-bottom: 40px;
+    font-size: 38px;
+}
+
+#btns-cont {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 25px;
+}
+
+#btns-cont img {
+    max-width: 220px;
+    width: 200px;
+    height: 281px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: black;
+}
+
+#choice-cont, #score-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#choice-cont p, #score-cont p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#choice-cont p span, #score-cont p span, .msgEle, .resetBtnEle {
+    font-weight: bold;
+}
+
+.msgEle {
+    font-size: 25px;
+    margin-bottom: 25px;
+    line-height: 3rem;
+}
+
+.resetBtnEle {
+    padding: 10px 24px;
+    font-size: 22px;
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#my-audio {
+  margin-bottom: 10px;
+}
