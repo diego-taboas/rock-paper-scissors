@@ -4,9 +4,6 @@ btnList.forEach((btn) => btn.addEventListener("click", (e) => {
   playRound(e.target.id);
 }))
 
-let audio = document.getElementById("my-audio");
-audio.volume = 0.2;
-
 const rocks = ["./images/pedras/pedra0.jpeg", "./images/pedras/pedra1.jpeg", "./images/pedras/pedra2.jpeg"];
 const scissors = ["./images/tesouras/tesoura0.jpeg", "./images/tesouras/tesoura1.jpeg", "./images/tesouras/tesoura2.jpeg"];
 const papers = ["./images/papeis/papel0.jpeg", "./images/papeis/papel1.jpeg"];
@@ -109,10 +106,7 @@ const resetBtn = document.createElement("button");
 resetBtn.setAttribute("class", "resetBtnEle");
 
 function displayFinalMsg() {
-  if (humanScore === 5 && computerScore === 5) {
-    finalMsg.innterText = "É um empate!";
-    finalMsg.style.color = "black";
-  } else if (humanScore === 5) {
+  if (humanScore === 5) {
     finalMsg.innerText = "Parabéns! Você venceu!";
     finalMsg.style.color = "yellow";
   } else if (computerScore === 5) {
